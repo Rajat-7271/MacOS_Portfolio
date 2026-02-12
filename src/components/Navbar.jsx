@@ -1,28 +1,41 @@
 import dayjs from "dayjs";
-import { navIcons, navLinks } from "#constants";
+import {navIcons, navLinks} from "#constants";
 import useWindowStore from "#store/window.js";
 
 const Navbar = () => {
-    const { openWindow } = useWindowStore();
+    const {openWindow, closeWindow, windows} = useWindowStore();
 
     const handleNavClick = (type) => {
         if (!type) return;
-        openWindow(type);
+
+        const win = windows[type];
+        if (!win) return;
+
+        if (win.isOpen) {
+            closeWindow(type);
+
+        } else {
+            openWindow(type);
+        }
     };
 
     return (
         <nav className="flex items-center justify-between px-4 py-2">
-            {/* Left side */}
             <div className="flex items-center gap-4">
-                <img src="/images/logo.svg" alt="logo" className="h-6 w-6" />
+                <img
+                    src="/images/logo.svg"
+                    alt="logo"
+                    className="h-6 w-6"
+                />
+
                 <p className="font-bold">Rajat&apos;s Portfolio</p>
 
                 <ul className="flex items-center gap-4">
-                    {navLinks.map(({ id, name, type }) => (
+                    {navLinks.map(({id, name, type}) => (
                         <li key={id}>
                             <button
                                 type="button"
-                                className="cursor-pointer hover:opacity-80"
+                                className="cursor-pointer hover:underline underline-offset-4"
                                 onClick={() => handleNavClick(type)}
                             >
                                 {name}
@@ -32,10 +45,9 @@ const Navbar = () => {
                 </ul>
             </div>
 
-            {/* Right side */}
             <div className="flex items-center gap-4">
                 <ul className="flex items-center gap-3">
-                    {navIcons.map(({ id, img }) => (
+                    {navIcons.map(({id, img}) => (
                         <li key={id}>
                             <img
                                 src={img}
