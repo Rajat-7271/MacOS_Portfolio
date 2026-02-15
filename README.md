@@ -40,7 +40,7 @@ This project recreates the MacOS desktop experience with draggable windows, dock
 
 ### 🖥️ Desktop View
 
-<img width="1916" height="876" alt="image" src="https://github.com/user-attachments/assets/b4839dba-9c09-4752-bf81-5bedd0a0839d" />
+<img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/de4881a2-b2f9-4c04-81a1-e4a33877ca42" />
 
 ---
 
@@ -63,10 +63,8 @@ macos_portfolio/
 ├── public/
 ├── src/
 ├── package.json
-└── vite.config.js
-
-
-
+├── vite.config.js
+```
 ---
 
 ## ⚙️ Installation
@@ -105,24 +103,3 @@ If you like this project, consider giving it a ⭐ on GitHub!
 
 📜 License
 This project is licensed under the MIT License.
-
-
----
-
----
-
-# 🔥 Next Level (Optional Upgrades)
-
-If you want it even cooler, we can add:
-
-✅ Animated GIF preview  
-✅ GitHub stats card  
-✅ Custom header banner  
-✅ Typing animation  
-
-Example:
-
-```markdown
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rajatbhakte&show_icons=true" />
-</p>
