@@ -89,9 +89,11 @@ Deployed on Netlify
 ```
 
 ## 👨‍💻 Author
+```bash
 Rajat Bhakte
 🎓 Computer Engineering Student
 💻 Web Development Enthusiast
+```
 
 ## 📌 Future Improvements
 ```bash
@@ -100,8 +102,8 @@ Rajat Bhakte
 🧩 More desktop apps/windows
 ```
 
-##⭐ Show Your Support
+## ⭐ Show Your Support
 If you like this project, consider giving it a ⭐ on GitHub!
 
-##📜 License
+## 📜 License
 This project is licensed under the MIT License.
