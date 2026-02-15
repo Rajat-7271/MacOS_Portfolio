@@ -40,8 +40,7 @@ This project recreates the MacOS desktop experience with draggable windows, dock
 
 ### 🖥️ Desktop View
 
-!<img width="1916" height="876" alt="image" src="https://github.com/user-attachments/assets/b4839dba-9c09-4752-bf81-5bedd0a0839d" />
-(https://via.placeholder.com/1000x500.png?text=MacOS+Portfolio+Screenshot)
+<img width="1916" height="876" alt="image" src="https://github.com/user-attachments/assets/b4839dba-9c09-4752-bf81-5bedd0a0839d" />
 
 ---
 
