@@ -58,11 +58,13 @@ This project recreates the MacOS desktop experience with draggable windows, dock
 
 ## 📁 Project Structure
 
+```bash
 macos_portfolio/
 ├── public/
 ├── src/
 ├── package.json
-├── vite.config.js
+└── vite.config.js
+
 
 
 ---
