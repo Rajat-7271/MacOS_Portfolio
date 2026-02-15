@@ -44,7 +44,7 @@ const dockApps = [
     },
     {
         id: "safari",
-        name: "Articles", // was "Safari"
+        name: "Achievements & Certifications", // was "Safari"
         icon: "safari.png",
         canOpen: true,
     },
@@ -77,52 +77,52 @@ const dockApps = [
 const blogPosts = [
     {
         id: 1,
-        date: "Sep 2, 2025",
-        title:
-            "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-        image: "/images/blog1.png",
-        link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+        date: "2025",
+        title: "Google Gen AI Event",
+        image: "/images/achievement1.png",
+        description:
+            "Participated in the Google Gen AI event, gaining exposure to generative AI technologies and workflows.",
     },
     {
         id: 2,
-        date: "Aug 28, 2025",
-        title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-        image: "/images/blog2.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+        date: "2025",
+        title: "Ethical Hacking Workshop",
+        image: "/images/achievement2.png",
+        description:
+            "Completed a professional workshop covering cybersecurity fundamentals and ethical security practices.",
     },
     {
         id: 3,
-        date: "Aug 15, 2025",
-        title: "The Ultimate Guide to Mastering GSAP Animations",
-        image: "/images/blog3.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+        date: "Ongoing",
+        title: "Data Structures & Algorithms Practice",
+        image: "/images/achievement3.png",
+        description:
+            "Solved 200+ coding problems across platforms, strengthening problem-solving and algorithmic thinking.",
     },
 ];
 
+
 const techStack = [
+
     {
-        category: "Frontend",
-        items: ["React.js", "Next.js", "TypeScript"],
+        category: "Programming Languages",
+        items: ["C++", "Python", "JavaScript"],
     },
     {
-        category: "Mobile",
-        items: ["React Native", "Expo"],
+        category: "Web Technologies",
+        items: ["HTML", "CSS", "EJS", "React", "Bootstrap"],
     },
     {
-        category: "Styling",
-        items: ["Tailwind CSS", "Sass", "CSS"],
+        category: "Backend & Databases",
+        items: ["Node.js", "Express.js", "MySQL"],
     },
     {
-        category: "Backend",
-        items: ["Node.js", "Express", "NestJS", "Hono"],
+        category: "Tools & Platforms",
+        items: ["Git", "GitHub"],
     },
     {
-        category: "Database",
-        items: ["MongoDB", "PostgreSQL"],
-    },
-    {
-        category: "Dev Tools",
-        items: ["Git", "GitHub", "Docker"],
+        category: "Other Skills",
+        items: ["Responsive Web Design", "DOM Manipulation", "REST APIs"],
     },
 ];
 
@@ -132,28 +132,28 @@ const socials = [
         text: "Github",
         icon: "/icons/github.svg",
         bg: "#f4656b",
-        link: "https://github.com/JavaScript-Mastery-Pro",
+        link: "https://github.com/Rajat-7271",
     },
     {
         id: 2,
         text: "Platform",
         icon: "/icons/atom.svg",
         bg: "#4bcb63",
-        link: "https://jsmastery.com/",
+        link: "",
     },
     {
         id: 3,
         text: "Twitter/X",
         icon: "/icons/twitter.svg",
         bg: "#ff866b",
-        link: "https://x.com/jsmasterypro",
+        link: "https://x.com",
     },
     {
         id: 4,
         text: "LinkedIn",
         icon: "/icons/linkedin.svg",
         bg: "#05b6f6",
-        link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+        link: "https://www.linkedin.com/in/rajat-bhakte/",
     },
 ];
 
@@ -225,7 +225,7 @@ const WORK_LOCATION = {
         // ▶ Project 1
         {
             id: 5,
-            name: "Nike Ecommerce Website Application",
+            name: "Restaurant Website",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-5", // icon position inside Finder
@@ -233,44 +233,35 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Nike Project.txt",
+                    name: "Restaurant Website.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-                        "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-                        "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-                        "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+                        "The Restaurant Website is a visually appealing and modern platform designed to showcase a dining experience online.",
+                        "Rather than just presenting information, it creates an inviting atmosphere with elegant visuals, smooth animations, and intuitive navigation.",
+                        "Think of it like stepping into a beautifully designed restaurant—but through your screen.",
+                        "It's built with clean design principles, ensuring responsiveness, user-friendly interaction, and an engaging overall experience."
                     ],
                 },
                 {
                     id: 2,
-                    name: "nike.com",
+                    name: "restaurant.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+                    href: "https://rajat-7271.github.io/restaurant-website/",
                     position: "top-10 right-20",
                 },
                 {
                     id: 4,
-                    name: "nike.png",
+                    name: "restaurant.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
                     imageUrl: "/images/project-1.png",
-                },
-                {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
-                    kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
-                    position: "top-60 right-20",
                 },
             ],
         },
@@ -278,52 +269,43 @@ const WORK_LOCATION = {
         // ▶ Project 2
         {
             id: 6,
-            name: "AI Resume Analyzer",
+            name: "Business Portfolio Website",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-52 right-80",
-            windowPosition: "top-[20vh] left-7",
+            windowPosition: "top-[20vh] left-0",
             children: [
                 {
                     id: 1,
-                    name: "AI Resume Analyzer Project.txt",
+                    name: "Business Portfolio Website.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 right-10",
                     description: [
-                        "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-                        "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-                        "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-                        "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+                        "Business Portfolio Website is a clean and modern platform designed to present a professional identity online.",
+                        "Instead of just displaying details, it highlights projects, skills, and achievements through structured layouts and smooth interactions.",
+                        "Think of it like a digital personal brand—showcasing experience, creativity, and credibility in one place.",
+                        "It's built with modern web technologies, ensuring fast performance, responsive design, and a polished visual experience."
                     ],
                 },
                 {
                     id: 2,
-                    name: "ai-resume-analyzer.com",
+                    name: "Business Portfolio Website.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+                    href: "https://rajat-7271.github.io/Business-Portfolio-Website/",
                     position: "top-20 left-20",
                 },
                 {
                     id: 4,
-                    name: "ai-resume-analyzer.png",
+                    name: "business portfolio.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 left-80",
                     imageUrl: "/images/project-2.png",
-                },
-                {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
-                    kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
-                    position: "top-60 left-5",
                 },
             ],
         },
@@ -331,52 +313,43 @@ const WORK_LOCATION = {
         // ▶ Project 3
         {
             id: 7,
-            name: "Food Delivery App",
+            name: "GTA Inspired Website",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-80",
-            windowPosition: "top-[33vh] left-7",
+            windowPosition: "top-[38vh] left-4",
             children: [
                 {
                     id: 1,
-                    name: "Food Delivery App Project.txt",
+                    name: "GTA Website.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-                        "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-                        "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-                        "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+                        "GTA Website is a bold and immersive platform inspired by the iconic Grand Theft Auto aesthetic.",
+                        "Instead of a typical static page, it delivers a dynamic experience with striking visuals, engaging animations, and interactive elements.",
+                        "Think of it like stepping into the world of GTA—packed with attitude, style, and high-energy design.",
+                        "It's built with modern frontend technologies, ensuring smooth performance, responsiveness, and a visually captivating interface."
                     ],
                 },
                 {
                     id: 2,
-                    name: "food-delivery-app.com",
+                    name: "GTA Website.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+                    href: "https://gta-website-tau.vercel.app/",
                     position: "top-10 right-20",
                 },
                 {
                     id: 4,
-                    name: "food-delivery-app.png",
+                    name: "GTA Website.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
                     imageUrl: "/images/project-3.png",
-                },
-                {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
-                    kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
-                    position: "top-60 right-20",
                 },
             ],
         },
@@ -397,7 +370,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-5",
-            imageUrl: "/images/adrian.jpg",
+            imageUrl: "/images/rajat.jpg",
         },
         {
             id: 2,
@@ -406,17 +379,9 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-28 right-72",
-            imageUrl: "/images/adrian-2.jpg",
+            imageUrl: "/images/rajat-2.png",
         },
-        {
-            id: 3,
-            name: "conference-me.png",
-            icon: "/images/image.png",
-            kind: "file",
-            fileType: "img",
-            position: "top-52 left-80",
-            imageUrl: "/images/adrian-3.jpeg",
-        },
+
         {
             id: 4,
             name: "about-me.txt",
@@ -425,12 +390,12 @@ const ABOUT_LOCATION = {
             fileType: "txt",
             position: "top-60 left-5",
             subtitle: "Meet the Developer Behind the Code",
-            image: "/images/adrian.jpg",
+            image: "/images/rajat.jpg",
             description: [
-                "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-                "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-                "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-                "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+                "Hey! I’m Rajat 👋, a web developer passionate about crafting clean, modern, and engaging web experiences.",
+                "I work with JavaScript, React, and Next.js—focusing on building interfaces that feel smooth, responsive, and intuitive.",
+                "I care deeply about clean UI, thoughtful UX, and writing maintainable code.",
+                "Beyond coding, I enjoy exploring new technologies, refining designs, and constantly pushing myself to improve 😄",
             ],
         },
     ],
@@ -449,8 +414,6 @@ const RESUME_LOCATION = {
             icon: "/images/pdf.png",
             kind: "file",
             fileType: "pdf",
-            // you can add `href` if you want to open a hosted resume
-            // href: "/your/resume/path.pdf",
         },
     ],
 };
@@ -493,14 +456,14 @@ export const locations = {
 const INITIAL_Z_INDEX = 1000;
 
 const WINDOW_CONFIG = {
-    finder: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
-    contact: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
-    resume: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
-    safari: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
-    photos: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
-    terminal: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
-    txtfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
-    imgfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+    finder: {isOpen: false, zIndex: INITIAL_Z_INDEX, data: null},
+    contact: {isOpen: false, zIndex: INITIAL_Z_INDEX, data: null},
+    resume: {isOpen: false, zIndex: INITIAL_Z_INDEX, data: null},
+    safari: {isOpen: false, zIndex: INITIAL_Z_INDEX, data: null},
+    photos: {isOpen: false, zIndex: INITIAL_Z_INDEX, data: null},
+    terminal: {isOpen: false, zIndex: INITIAL_Z_INDEX, data: null},
+    txtfile: {isOpen: false, zIndex: INITIAL_Z_INDEX, data: null},
+    imgfile: {isOpen: false, zIndex: INITIAL_Z_INDEX, data: null},
 };
 
-export { INITIAL_Z_INDEX, WINDOW_CONFIG };
+export {INITIAL_Z_INDEX, WINDOW_CONFIG};

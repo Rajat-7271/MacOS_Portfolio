@@ -53,6 +53,7 @@ const Navbar = () => {
                                 src={img}
                                 className="icon-hover h-4 w-4"
                                 alt={`icon-${id}`}
+                                title=""
                             />
                         </li>
                     ))}
