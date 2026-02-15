@@ -74,32 +74,34 @@ Clone repository:
 ```bash
 git clone https://github.com/yourusername/macos_portfolio.git
 cd macos_portfolio
+
 Install dependencies:
-
 npm install
+
 Run dev server:
-
 npm run dev
-Build project:
 
+Build project:
 npm run build
+
 🌍 Deployment
 Deployed on Netlify
+```
 
-👨‍💻 Author
+## 👨‍💻 Author
 Rajat Bhakte
 🎓 Computer Engineering Student
 💻 Web Development Enthusiast
 
-📌 Future Improvements
+## 📌 Future Improvements
+```bash
 🌙 Dark / Light mode
-
 📱 Better mobile responsiveness
-
 🧩 More desktop apps/windows
+```
 
-⭐ Show Your Support
+##⭐ Show Your Support
 If you like this project, consider giving it a ⭐ on GitHub!
 
-📜 License
+##📜 License
 This project is licensed under the MIT License.
