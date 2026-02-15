@@ -89,8 +89,10 @@ Deployed on Netlify
 ```
 
 ## 👨‍💻 Author
-```bash
+
 Rajat Bhakte
+
+```bash
 🎓 Computer Engineering Student
 💻 Web Development Enthusiast
 ```
