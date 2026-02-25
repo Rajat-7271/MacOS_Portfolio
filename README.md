@@ -72,7 +72,7 @@ macos_portfolio/
 Clone repository:
 
 ```bash
-git clone https://github.com/yourusername/macos_portfolio.git
+git clone https://github.com/Rajat-7271/macos_portfolio.git
 cd macos_portfolio
 
 Install dependencies:
